@@ -6,6 +6,7 @@ import Image from "next/image";
 import { TextEffect } from "./motion-primitives/text-effect";
 import { AnimatedGroup } from "./motion-primitives/animated-group";
 import { LogoCloud } from "./logo-cloud";
+import three from "@/assets/three.jpg";
 
 const transitionVariants = {
 	item: {
@@ -133,7 +134,7 @@ export default function HeroSection() {
 									/>
 									<Image
 										className="z-2 border-border/25 aspect-15/8 relative rounded-2xl border dark:hidden"
-										src="/mail2-light.png"
+										src={three}
 										alt="app screen"
 										width="2700"
 										height="1440"
