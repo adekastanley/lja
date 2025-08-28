@@ -18,7 +18,7 @@ export default function AboutSection() {
 				/> */}
 				<Image
 					src={two}
-					className="rounded-(--radius) grayscale w-full"
+					className="rounded-(--radius) grayscale w-full rounded-lg"
 					width={300}
 					height={300}
 					alt="portait image"
