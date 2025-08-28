@@ -60,9 +60,7 @@ export default function HeroSection() {
 									as="p"
 									className="mt-8 max-w-2xl text-pretty text-lg"
 								>
-									Tailwindcss highly customizable components for building modern
-									websites and applications that look and feel the way you mean
-									it.
+									Inspiring Participation, Driving Change
 								</TextEffect>
 
 								<AnimatedGroup

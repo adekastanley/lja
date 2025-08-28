@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import FooterSection from "@/components/footer";
 import "./globals.css";
 
 import { HeroHeader } from "@/components/header";
@@ -31,6 +32,7 @@ export default function RootLayout({
 			>
 				<HeroHeader />
 				{children}
+				<FooterSection />
 			</body>
 		</html>
 	);
