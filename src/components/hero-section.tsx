@@ -61,7 +61,9 @@ export default function HeroSection() {
 									as="p"
 									className="mt-8 max-w-2xl text-pretty text-lg"
 								>
-									Inspiring Participation, Driving Change
+									Governance advocate and development leader dedicated to
+									mobilizing citizens, strengthening democracy, and building
+									transparent systems across Africa.
 								</TextEffect>
 
 								<AnimatedGroup
@@ -88,7 +90,7 @@ export default function HeroSection() {
 											className="rounded-xl px-5 text-base"
 										>
 											<Link href="#link">
-												<span className="text-nowrap">Start Building</span>
+												<span className="text-nowrap">Get In Touch</span>
 											</Link>
 										</Button>
 									</div>
@@ -100,7 +102,7 @@ export default function HeroSection() {
 										className="h-10.5 rounded-xl px-5 text-base"
 									>
 										<Link href="#link">
-											<span className="text-nowrap">Request a demo</span>
+											<span className="text-nowrap">Learn More About Lucy</span>
 										</Link>
 									</Button>
 								</AnimatedGroup>

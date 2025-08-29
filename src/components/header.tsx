@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import { ModeToggle } from "./toggle";
 
 const menuItems = [
-	{ name: "About", href: "#link" },
+	{ name: "About", href: "/about" },
 	{ name: "Blog", href: "#link" },
 	{ name: "Info", href: "#link" },
 ];
