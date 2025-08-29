@@ -1,4 +1,5 @@
 import AboutSection from "@/components/aboutSection";
+import CollaborationSection from "@/components/collaboration";
 import HeroSection from "@/components/hero-section";
 import ImpactSection from "@/components/impactSection";
 import RecSection from "@/components/recognition";
@@ -12,6 +13,7 @@ export default function Home() {
 			<ImpactSection />
 			<RecSection />
 			<SpeakingSection />
+			<CollaborationSection />
 		</main>
 	);
 }
