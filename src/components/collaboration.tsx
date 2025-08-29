@@ -1,4 +1,3 @@
-import { Cpu, Zap } from "lucide-react";
 import Image from "next/image";
 import six from "@/assets/six.jpg";
 
