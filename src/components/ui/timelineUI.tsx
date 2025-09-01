@@ -45,10 +45,11 @@ export function Timeline({ entries, className }: TimelineProps) {
 interface TimelineItemProps {
 	entry: TimelineEntry;
 	index: number;
+	// @eslint-disable-next-line @typescript-eslint/no-explicit-any
 	scrollProgress: any;
 }
 
-function TimelineItem({ entry, index, scrollProgress }: TimelineItemProps) {
+function TimelineItem({ entry }: TimelineItemProps) {
 	const itemRef = useRef<HTMLDivElement>(null);
 	const { scrollYProgress: itemProgress } = useScroll({
 		target: itemRef,
