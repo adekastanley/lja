@@ -1,13 +1,12 @@
 "use client";
 
-import about1 from "@/assets/about1.jpg";
+import HeroSection from "@/components/heroSection2";
 import { TextGradientScroll } from "@/components/ui/text-gradient-scroll";
 import { Timeline } from "@/components/ui/timelineUI";
 import "../globals.css";
 import { StaggerTestimonials } from "@/components/ui/testimonials";
 import { motion } from "framer-motion";
 import SmoothScrollHero from "@/components/ui/smoot-scroll-hero";
-import Image from "next/image";
 
 export default function Page() {
 	const aboutStatement = `Lucy James Abagi is a governance advocate, civic educator, and
@@ -66,12 +65,12 @@ export default function Page() {
 			{/* Hero Section */}
 			<section className="py-16 md:py-32">
 				<div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-12">
-					<Image
+					<img
 						className="rounded-(--radius) grayscale"
-						src={about1}
+						src="https://images.unsplash.com/photo-1530099486328-e021101a494a?q=80&w=2747&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 						alt="team image"
-						height={2000}
-						width={2000}
+						height=""
+						width=""
 						loading="lazy"
 					/>
 				</div>

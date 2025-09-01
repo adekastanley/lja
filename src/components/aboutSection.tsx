@@ -6,7 +6,7 @@ import two from "@/assets/two.jpg";
 
 export default function AboutSection() {
 	return (
-		<section className="">
+		<section className="mt-20 lg:mt-32">
 			<div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-12">
 				{/* <img
 					className="rounded-(--radius) grayscale"
