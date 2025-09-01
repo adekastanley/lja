@@ -8,6 +8,9 @@ import { StaggerTestimonials } from "@/components/ui/testimonials";
 import { motion } from "framer-motion";
 import SmoothScrollHero from "@/components/ui/smoot-scroll-hero";
 import Image from "next/image";
+import hj1 from "@/assets/hj1.jpg";
+import hf1 from "@/assets/hf1.jpg";
+import rec1 from "@/assets/rec1.jpg";
 
 export default function Page() {
 	const aboutStatement = `Lucy James Abagi is a governance advocate, civic educator, and
@@ -20,8 +23,7 @@ export default function Page() {
 	const journeyEntries = [
 		{
 			id: 1,
-			image:
-				"https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-RJ3iTXUn5SUexF6nHMZYhMoQLNCboK.png",
+			image: hj1.src,
 			alt: "Her Journey",
 			title: "Her Journey",
 			description: `Over the years, Lucy has led initiatives that connect citizens
@@ -36,8 +38,7 @@ export default function Page() {
 		},
 		{
 			id: 2,
-			image:
-				"https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LN9OPh9hw0b9rwSPRSslHoejcfoKHe.png",
+			image: hf1.src,
 			alt: "her focus",
 			title: "Her Focus",
 			description: `	Lucy's work centers on four key pillars: transparency in
@@ -49,8 +50,7 @@ export default function Page() {
 		},
 		{
 			id: 3,
-			image:
-				"https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1FdGyjVpWQANGzsDWpoPIvF5SVI2za.png",
+			image: rec1.src,
 			alt: "Recognition & Leadership",
 			title: "Recognition & Leadership",
 			description: `	Her leadership and impact have earned her recognition on the
@@ -79,19 +79,19 @@ export default function Page() {
 			{/* About Statement Section with Grid Background */}
 			<section
 				id="about"
-				className="relative min-h-screen flex items-center justify-center py-20 bg-white"
+				className="relative min-h-screen flex items-center justify-center py-20 "
 			>
 				{/* Subtle Grid Pattern */}
 				<div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
 
 				<div className="container mx-auto px-6 relative z-10">
 					<div className="max-w-4xl mx-auto text-center">
-						<h2 className="text-4xl md:text-6xl font-black tracking-wider mb-12 text-gray-900">
+						<h2 className="text-4xl md:text-6xl font-black tracking-wider mb-12 ">
 							ABOUT ME
 						</h2>
 						<TextGradientScroll
 							text={aboutStatement}
-							className="text-2xl md:text-3xl lg:text-4xl font-medium leading-relaxed text-gray-800"
+							className="text-2xl md:text-3xl lg:text-4xl font-medium leading-relaxed text"
 							type="word"
 							textOpacity="soft"
 						/>
@@ -100,17 +100,17 @@ export default function Page() {
 			</section>
 
 			{/* Journey Timeline Section */}
-			<section id="journey" className="relative py-20 bg-white">
+			<section id="journey" className="relative py-20 ">
 				{/* Subtle Grid Pattern */}
 				<div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
 
 				<div className="relative z-10">
 					<div className="container mx-auto px-6 mb-16">
 						<div className="text-center">
-							<h2 className="text-4xl md:text-6xl font-black tracking-wider mb-6 text-gray-900">
+							<h2 className="text-4xl md:text-6xl font-black tracking-wider mb-6">
 								MY JOURNEY
 							</h2>
-							<p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
+							<p className="text-xl md:text-2xl  max-w-3xl mx-auto">
 								Every professional path has its defining moments. Here are some
 								key chapters from my creative journey.
 							</p>
@@ -122,7 +122,7 @@ export default function Page() {
 			</section>
 
 			{/* closing*/}
-			<section id="recommendations" className="relative py-20 bg-white">
+			<section id="recommendations" className="relative py-20 ">
 				{/* Subtle Grid Pattern */}
 				<div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
 
@@ -134,7 +134,7 @@ export default function Page() {
 						viewport={{ once: true }}
 						className="text-center mb-16"
 					>
-						<p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
+						<p className="text-xl md:text-2xl  max-w-3xl mx-auto leading-relaxed mb-12">
 							For Lucy, governance is not just about policies and institutions —
 							it's about people. Her vision is simple yet powerful: a society
 							where every citizen feels empowered, every voice counts, and every
@@ -143,7 +143,7 @@ export default function Page() {
 					</motion.div>
 				</div>
 			</section>
-			<section id="recommendations" className="relative py-20 bg-white">
+			<section id="recommendations" className="relative py-20 ">
 				{/* Subtle Grid Pattern */}
 				<div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
 
