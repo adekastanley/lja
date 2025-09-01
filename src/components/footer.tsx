@@ -4,15 +4,12 @@ import Link from "next/link";
 const links = [
 	{
 		title: "About",
-		href: "#",
+		href: "/about",
 	},
+	{ title: "Gallery", href: "/gallery" },
 	{
-		title: "Blog",
-		href: "#",
-	},
-	{
-		title: "Info",
-		href: "#",
+		title: "Contact",
+		href: "/contact",
 	},
 ];
 
