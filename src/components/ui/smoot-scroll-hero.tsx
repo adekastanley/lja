@@ -9,7 +9,6 @@ import {
 	useTransform,
 } from "framer-motion";
 import { LiquidButton } from "./Liquid Glass Button";
-import { MapPin, Users, Calendar, Trophy } from "lucide-react";
 
 interface SmoothScrollHeroProps {
 	scrollHeight?: number;
