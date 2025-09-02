@@ -10,7 +10,7 @@ import { ModeToggle } from "./toggle";
 const menuItems = [
 	{ name: "About", href: "/about" },
 	{ name: "Gallery", href: "/gallery" },
-	{ name: "Contact", href: "/contact" },
+	// { name: "Contact", href: "/contact" },s
 ];
 
 export const HeroHeader = () => {
@@ -130,7 +130,7 @@ export const HeroHeader = () => {
 								</ul>
 							</div>
 							<div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-								<Button
+								{/* <Button
 									asChild
 									variant="outline"
 									size="sm"
@@ -139,14 +139,14 @@ export const HeroHeader = () => {
 									<Link href="#">
 										<span>Jas Fitness</span>
 									</Link>
-								</Button>
+								</Button> */}
 								<Button
 									asChild
 									size="sm"
 									className={cn(isScrolled && "lg:hidden")}
 								>
-									<Link href="#">
-										<span>PPDC NG</span>
+									<Link href="/contact">
+										<span>Contact</span>
 									</Link>
 								</Button>
 								<ModeToggle />
@@ -155,8 +155,8 @@ export const HeroHeader = () => {
 									size="sm"
 									className={cn(isScrolled ? "lg:inline-flex" : "hidden")}
 								>
-									<Link href="#">
-										<span>Get Started</span>
+									<Link href="/contact">
+										<span>Contact</span>
 									</Link>
 								</Button>
 							</div>

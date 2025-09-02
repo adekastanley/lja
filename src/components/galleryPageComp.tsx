@@ -3,11 +3,20 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import g1 from "@/assets/gallery/g1.jpg";
+import g2 from "@/assets/gallery/g2.jpg";
+import g3 from "@/assets/gallery/g3.jpg";
+import g4 from "@/assets/gallery/g4.jpg";
+import g5 from "@/assets/gallery/g5.jpg";
+import g6 from "@/assets/gallery/g6.jpg";
+import g7 from "@/assets/gallery/g7.jpg";
+import g8 from "@/assets/gallery/g8.jpg";
+import g9 from "@/assets/gallery/g9.jpg";
 
 interface GalleryImage {
 	id: string;
 	title: string;
-	category: string;
+	text: string;
 	image: string;
 }
 
@@ -19,64 +28,56 @@ const defaultImages: GalleryImage[] = [
 	{
 		id: "1",
 		title: "Neuwaes",
-		category: "UI/UX",
-		image:
-			"https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/Rectangle%202.png",
+		text: "UI/UX",
+		image: g1.src,
 	},
 	{
 		id: "2",
 		title: "Miranda Labs",
-		category: "Branding",
-		image:
-			"https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/Slide%2016_9%20-%209.png",
+		text: "Branding",
+		image: g2.src,
 	},
 	{
 		id: "3",
 		title: "Art Portfolio | CECHK",
-		category: "UI/UX",
-		image:
-			"https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/MacBook-Pro-16%20%281%29%201.png",
+		text: "UI/UX",
+		image: g3.src,
 	},
 	{
 		id: "4",
 		title: "Eidos - art app",
-		category: "Campaign",
-		image:
-			"https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/original-ea1362184570d64698251999a7470a76.webp",
+		text: "Campaign",
+		image: g4.src,
 	},
 	{
 		id: "5",
 		title: "Caffio",
-		category: "UI/UX",
-		image:
-			"https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/image%202.png",
+		text: "UI/UX",
+		image: g5.src,
 	},
 	{
 		id: "6",
 		title: "Nebula",
-		category: "Print",
-		image:
-			"https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/original-1523529fe6f7f6dd98523021caac4a09.webp",
+		text: "Print",
+		image: g6.src,
 	},
 	{
 		id: "7",
 		title: "Anima Labs",
-		category: "UI/UX",
-		image:
-			"https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/Rectangle%208.png",
+		text: "UI/UX",
+		image: g7.src,
 	},
 	{
 		id: "8",
 		title: "Logo Collection",
-		category: "Branding",
-		image: "https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/logos.png",
+		text: "Branding",
+		image: g8.src,
 	},
 	{
 		id: "9",
 		title: "Art Direction Collection",
-		category: "Campaign",
-		image:
-			"https://zvp33vils3mcd4rj.public.blob.vercel-storage.com/ART%20DIRECTION.png",
+		text: "Campaign",
+		image: g9.src,
 	},
 ];
 
@@ -84,7 +85,7 @@ export default function Gallery({ images = defaultImages }: GalleryProps) {
 	const [expandedImage, setExpandedImage] = useState<GalleryImage | null>(null);
 
 	return (
-		<div className="flex flex-col h-full">
+		<div className="flex flex-col h-full pt-[5rem]">
 			<div className="flex-1">
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 p-4 auto-rows-max">
 					{images.map((image) => (
@@ -133,9 +134,7 @@ export default function Gallery({ images = defaultImages }: GalleryProps) {
 							<h2 className="text-white text-2xl font-medium">
 								{expandedImage.title}
 							</h2>
-							<p className="text-white/80 text-sm mt-1">
-								{expandedImage.category}
-							</p>
+							<p className="text-white/80 text-sm mt-1">{expandedImage.text}</p>
 						</div>
 					</div>
 				</div>
