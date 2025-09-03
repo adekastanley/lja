@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import { ModeToggle } from "./toggle";
 
 const menuItems = [
+	{ name: "Home", href: "/" },
 	{ name: "About", href: "/about" },
 	{ name: "Gallery", href: "/gallery" },
 	// { name: "Contact", href: "/contact" },s
@@ -72,6 +73,7 @@ export const HeroHeader = () => {
 											<Link
 												href={item.href}
 												className="text-muted-foreground hover:text-accent-foreground block duration-150"
+												onClick={() => setMenuState(false)} // <-- Add this
 											>
 												<span>{item.name}</span>
 											</Link>

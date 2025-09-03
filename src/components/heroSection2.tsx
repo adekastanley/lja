@@ -83,9 +83,9 @@ export default function HeroSection() {
 					<LiquidButton
 						size="xxl"
 						className="font-semibold text-lg tracking-wide"
-						// onClick={() => scrollToSection("#join")}
+						// onClick={() => scrollToSection("")}
 					>
-						Join Us
+						Get Started
 					</LiquidButton>
 				</div>
 			</div>

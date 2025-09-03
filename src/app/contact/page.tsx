@@ -16,20 +16,21 @@ export default function ContactPage() {
 		<section className="py-32">
 			<div className="mx-auto max-w-3xl px-8 lg:px-0">
 				<h1 className="text-center text-4xl font-semibold lg:text-5xl">
-					Contact Sales
+					Get In Touch
 				</h1>
-				<p className="mt-4 text-center">
-					We'll help you find the right plan and pricing for your business.
-				</p>
+				{/* <p className="mt-4 text-center">
+					Schedule a call or request for information by filling this form
+				</p> */}
 
 				<Card className="mx-auto mt-12 max-w-lg p-8 shadow-md sm:p-16">
 					<div>
-						<h2 className="text-xl font-semibold">
+						{/* <h2 className="text-xl font-semibold">
 							Let's get you to the right place
-						</h2>
+						</h2> */}
 						<p className="mt-4 text-sm">
-							Reach out to our sales team! We’re eager to learn more about how
-							you plan to use our application.
+							Have a project, idea, or partnership in mind? I’d love to hear
+							from you. Fill out the form below and I’ll get back to you as soon
+							as possible.
 						</p>
 					</div>
 
@@ -54,6 +55,7 @@ export default function ContactPage() {
 									<SelectValue placeholder="Select Country/Region" />
 								</SelectTrigger>
 								<SelectContent>
+									<SelectItem value="0">Nigeria</SelectItem>
 									<SelectItem value="1">DR Congo</SelectItem>
 									<SelectItem value="2">United States</SelectItem>
 									<SelectItem value="3">France</SelectItem>
@@ -62,23 +64,15 @@ export default function ContactPage() {
 						</div>
 
 						<div>
-							<Label htmlFor="website">Company Website</Label>
-							<Input type="url" id="website" />
-							<span className="text-muted-foreground inline-block text-sm">
-								Must start with 'https'
-							</span>
-						</div>
-
-						<div>
 							<Label htmlFor="job">Job function</Label>
 							<Select>
 								<SelectTrigger>
-									<SelectValue placeholder="Select Job Function" />
+									<SelectValue placeholder="Select Function" />
 								</SelectTrigger>
 								<SelectContent>
-									<SelectItem value="1">Finance</SelectItem>
+									<SelectItem value="1">Speaking</SelectItem>
 									<SelectItem value="2">Education</SelectItem>
-									<SelectItem value="3">Legal</SelectItem>
+									<SelectItem value="3">Inquiry</SelectItem>
 									<SelectItem value="4">More</SelectItem>
 								</SelectContent>
 							</Select>

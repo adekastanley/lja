@@ -78,7 +78,10 @@ export default function SpeakingSection() {
 
 								<div className="mt-6 space-y-3">
 									{/* <cite className="block font-medium">John Doe, CEO</cite> */}
-									<Button>Book Lucy for an Event</Button>
+									<a href="/contact">
+										{" "}
+										<Button>Book Lucy for an Event</Button>
+									</a>
 								</div>
 							</blockquote>
 						</div>

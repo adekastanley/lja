@@ -5,6 +5,7 @@ import HeroSection from "@/components/heroSection2";
 import ImpactSection from "@/components/impactSection";
 import RecSection from "@/components/recognition";
 import SpeakingSection from "@/components/speaking";
+import SmoothScrollHero from "@/components/ui/smoot-scroll-hero";
 
 export default function Home() {
 	return (
@@ -15,7 +16,16 @@ export default function Home() {
 			<RecSection />
 			<SpeakingSection />
 			<CollaborationSection />
-			<CallToAction />
+			{/* <CallToAction /> */}
+			<SmoothScrollHero
+				scrollHeight={2500}
+				desktopImage=""
+				// desktopImage={hf1.src}
+				mobileImage=""
+				// mobileImage="/images/runners-motion-blur.png"
+				initialClipPercentage={30}
+				finalClipPercentage={70}
+			/>
 		</main>
 	);
 }

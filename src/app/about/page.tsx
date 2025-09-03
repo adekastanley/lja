@@ -176,8 +176,10 @@ export default function Page() {
 			<section id="contact" className="relative">
 				<SmoothScrollHero
 					scrollHeight={2500}
-					desktopImage="/images/runners-motion-blur.png"
-					mobileImage="/images/runners-motion-blur.png"
+					desktopImage=""
+					// desktopImage={hf1.src}
+					mobileImage=""
+					// mobileImage="/images/runners-motion-blur.png"
 					initialClipPercentage={30}
 					finalClipPercentage={70}
 				/>
