@@ -73,7 +73,7 @@ export const HeroHeader = () => {
 											<Link
 												href={item.href}
 												className="text-muted-foreground hover:text-accent-foreground block duration-150"
-												onClick={() => setMenuState(false)} // <-- Add this
+												onClick={() => setMenuState(false)}
 											>
 												<span>{item.name}</span>
 											</Link>
@@ -82,7 +82,7 @@ export const HeroHeader = () => {
 								</ul>
 							</div>
 							<div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-								<Button asChild variant="outline" size="sm">
+								{/* <Button asChild variant="outline" size="sm">
 									<Link href="#">
 										<span>Jas Fitness</span>
 									</Link>
@@ -91,10 +91,10 @@ export const HeroHeader = () => {
 									<Link href="#">
 										<span>PPDC NG</span>
 									</Link>
-								</Button>
+								</Button> */}
 								<ModeToggle />
 								<Button asChild size="sm">
-									<Link href="#">
+									<Link href="/contact">
 										<span>Get Started</span>
 									</Link>
 								</Button>
