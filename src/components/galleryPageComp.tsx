@@ -27,60 +27,59 @@ interface GalleryProps {
 const defaultImages: GalleryImage[] = [
 	{
 		id: "1",
-		title: "Neuwaes",
-		text: "UI/UX",
+		title: "image",
+		text: "Description",
 		image: g1.src,
 	},
 	{
 		id: "2",
-		title: "Miranda Labs",
-		text: "Branding",
+		title: "image",
+		text: "Description",
 		image: g2.src,
 	},
 	{
 		id: "3",
-		title: "Art Portfolio | CECHK",
-		text: "UI/UX",
+		title: "image",
+		text: "Description",
 		image: g3.src,
 	},
 	{
 		id: "4",
-		title: "Eidos - art app",
-		text: "Campaign",
+		title: "image",
+		text: "Description",
 		image: g4.src,
 	},
 	{
 		id: "5",
-		title: "Caffio",
-		text: "UI/UX",
+		title: "image",
+		text: "Description",
 		image: g5.src,
 	},
 	{
 		id: "6",
-		title: "Nebula",
-		text: "Print",
+		title: "image",
+		text: "Description",
 		image: g6.src,
 	},
 	{
 		id: "7",
-		title: "Anima Labs",
-		text: "UI/UX",
+		title: "image",
+		text: "Description",
 		image: g7.src,
 	},
 	{
 		id: "8",
-		title: "Logo Collection",
-		text: "Branding",
+		title: "image",
+		text: "Description",
 		image: g8.src,
 	},
 	{
 		id: "9",
-		title: "Art Direction Collection",
-		text: "Campaign",
+		title: "image",
+		text: "Description",
 		image: g9.src,
 	},
 ];
-
 export default function Gallery({ images = defaultImages }: GalleryProps) {
 	const [expandedImage, setExpandedImage] = useState<GalleryImage | null>(null);
 

@@ -9,8 +9,8 @@ export default function CollaborationSection() {
 					Get Involved
 				</h2>
 				<div className="relative">
-					<div className="relative z-10 space-y-4 md:w-1/2">
-						<p>
+					<div className="relative z-10 space-y-4 md:w-1/2 ">
+						<p className=" dark:bg-black/20  shadow-text">
 							Lucy believes real change happens when citizens, institutions, and
 							partners come together. There are many ways to collaborate and
 							support her work in building transparent and accountable
@@ -23,7 +23,7 @@ export default function CollaborationSection() {
 								<div className="flex items-center gap-2">
 									<h3 className="text-sm font-medium">Partnerships</h3>
 								</div>
-								<p className="text-muted-foreground text-sm">
+								<p className=" text-sm">
 									Work with Lucy on initiatives that promote accountability and
 									citizen empowerment.
 								</p>
@@ -32,7 +32,7 @@ export default function CollaborationSection() {
 								<div className="flex items-center gap-2">
 									<h3 className="text-sm font-medium">Speaking & Training</h3>
 								</div>
-								<p className="text-muted-foreground text-sm">
+								<p className=" text-sm">
 									Invite Lucy to share her expertise at conferences, panels, and
 									workshops.
 								</p>
@@ -43,7 +43,7 @@ export default function CollaborationSection() {
 								<div className="flex items-center gap-2">
 									<h3 className="text-sm font-medium">Advocacy & Campaigns</h3>
 								</div>
-								<p className="text-muted-foreground text-sm">
+								<p className=" text-sm">
 									Join efforts that mobilize citizens and demand better
 									governance.
 								</p>
