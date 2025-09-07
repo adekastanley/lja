@@ -5,6 +5,7 @@ import HeroSection from "@/components/heroSection2";
 import ImpactSection from "@/components/impactSection";
 import RecSection from "@/components/recognition";
 import SpeakingSection from "@/components/speaking";
+import LatestBlogSection from "@/components/latestBlogSection";
 import SmoothScrollHero from "@/components/ui/smoot-scroll-hero";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
 			<RecSection />
 			<SpeakingSection />
 			<CollaborationSection />
+			<LatestBlogSection />
 			{/* <CallToAction /> */}
 			<SmoothScrollHero
 				scrollHeight={2500}
