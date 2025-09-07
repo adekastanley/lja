@@ -80,13 +80,15 @@ export default function HeroSection() {
 					</p>
 
 					{/* CTA Button - Now using LiquidButton */}
-					<LiquidButton
-						size="xxl"
-						className="font-semibold text-lg tracking-wide"
-						// onClick={() => scrollToSection("")}
-					>
-						Get Started
-					</LiquidButton>
+					<a href="/contact">
+						<LiquidButton
+							size="xxl"
+							className="font-semibold text-lg tracking-wide"
+							// onClick={() => scrollToSection("")}
+						>
+							Get Started
+						</LiquidButton>
+					</a>
 				</div>
 			</div>
 
