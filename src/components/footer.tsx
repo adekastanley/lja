@@ -11,6 +11,10 @@ const links = [
 		title: "Contact",
 		href: "/contact",
 	},
+	{
+		title: "Blog",
+		href: "/blog",
+	},
 ];
 
 export default function FooterSection() {
