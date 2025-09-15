@@ -38,7 +38,7 @@ export default function FooterSection() {
 				</div>
 				<div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
 					<Link
-						href="#"
+						href="https://x.com/lucydavis2012"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="X/Twitter"
@@ -58,7 +58,7 @@ export default function FooterSection() {
 						</svg>
 					</Link>
 					<Link
-						href="#"
+						href="https://www.linkedin.com/in/lucy-abagi-a94a98128"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="LinkedIn"
@@ -78,7 +78,7 @@ export default function FooterSection() {
 						</svg>
 					</Link>
 					<Link
-						href="#"
+						href="https://www.facebook.com/share/1AwKbYvHkN"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="Facebook"
@@ -98,7 +98,7 @@ export default function FooterSection() {
 						</svg>
 					</Link>
 					<Link
-						href="#"
+						href="https://www.threads.com/@lucyjamesabagi"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="Threads"
@@ -123,7 +123,7 @@ export default function FooterSection() {
 						</svg>
 					</Link>
 					<Link
-						href="#"
+						href="https://instagram.com/lucyjamesabagi"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="Instagram"
@@ -143,7 +143,7 @@ export default function FooterSection() {
 						</svg>
 					</Link>
 					<Link
-						href="#"
+						href="https://tiktok.com/@lucy.abagi"
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label="TikTok"

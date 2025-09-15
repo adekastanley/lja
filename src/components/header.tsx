@@ -83,22 +83,23 @@ export const HeroHeader = () => {
 								</ul>
 							</div>
 							<div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-								{/* <Button asChild variant="outline" size="sm">
-									<Link href="#">
-										<span>Jas Fitness</span>
+								<Button asChild variant="outline" size="sm">
+									<Link href="https://www.ppdc.org/">
+										<span>Visit PPDC NG</span>
 									</Link>
 								</Button>
-								<Button asChild size="sm">
-									<Link href="#">
+								{/* <Button asChild size="sm">
+									<Link href="https://www.ppdc.org/">
 										<span>PPDC NG</span>
 									</Link>
 								</Button> */}
-								<ModeToggle />
+
 								<Button asChild size="sm">
 									<Link href="/contact">
 										<span>Get Started</span>
 									</Link>
 								</Button>
+								<ModeToggle />
 							</div>
 						</div>
 						{/* Desktop Menu */}
@@ -133,16 +134,16 @@ export const HeroHeader = () => {
 								</ul>
 							</div>
 							<div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-								{/* <Button
+								<Button
 									asChild
 									variant="outline"
 									size="sm"
 									className={cn(isScrolled && "lg:hidden")}
 								>
-									<Link href="#">
-										<span>Jas Fitness</span>
+									<Link href="   http://localhost:3001">
+										<span>Visit PPDC ng</span>
 									</Link>
-								</Button> */}
+								</Button>
 								<Button
 									asChild
 									size="sm"
