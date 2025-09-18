@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { cn } from "@/lib/utils";
 import { ModeToggle } from "./toggle";
+import { usePathname } from "next/navigation";
 
 const menuItems = [
 	{ name: "Home", href: "/" },
@@ -18,6 +19,7 @@ const menuItems = [
 export const HeroHeader = () => {
 	const [menuState, setMenuState] = React.useState(false);
 	const [isScrolled, setIsScrolled] = React.useState(false);
+	const pathname = usePathname();
 
 	React.useEffect(() => {
 		const handleScroll = () => {
@@ -73,7 +75,11 @@ export const HeroHeader = () => {
 										<li key={index}>
 											<Link
 												href={item.href}
-												className="text-muted-foreground hover:text-accent-foreground block duration-150"
+												className={cn(
+													"text-muted-foreground hover:text-accent-foreground block duration-150",
+													pathname === item.href &&
+														"text-primary font-semibold "
+												)}
 												onClick={() => setMenuState(false)}
 											>
 												<span>{item.name}</span>
@@ -109,7 +115,10 @@ export const HeroHeader = () => {
 									<li key={index}>
 										<Link
 											href={item.href}
-											className="text-muted-foreground hover:text-accent-foreground block duration-150"
+											className={cn(
+												"text-muted-foreground hover:text-accent-foreground block duration-150",
+												pathname === item.href && "text-primary font-semibold "
+											)}
 										>
 											<span>{item.name}</span>
 										</Link>
