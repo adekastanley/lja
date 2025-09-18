@@ -12,16 +12,17 @@ export default function HeroSection() {
 
 	const slides = [
 		{
-			image: hero1.src,
-			alt: "Group of runners in motion",
+			image: hero2.src,
+			alt: "image of lucy james abagi  at an event",
 		},
 		{
-			image: hero2.src,
-			alt: "Female runner with motion blur",
+			image: hero1.src,
+			alt: "portrait of lucy james abagi  ",
 		},
+
 		{
 			image: hero3.src,
-			alt: "Male runner leading group",
+			alt: "portrait of lucy james abagi  ",
 		},
 	];
 
